@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <style>
+    .star-title { font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Comic Sans', sans-serif; font-size: 26px; font-weight: 700; fill: #000000; }
+    .axis-label { font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Comic Sans', sans-serif; font-size: 16px; font-weight: 700; fill: #000000; }
+    .legend-text { font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Comic Sans', sans-serif; font-size: 14px; font-weight: 600; fill: #000000; }
+    .watermark-text { font-family: 'Comic Sans MS', 'Comic Neue', 'Chalkboard SE', 'Comic Sans', sans-serif; font-size: 14px; font-weight: 600; fill: #4b5563; }
+  </style>
+
+  <!-- Background Box (Light Theme Star History Style) -->
+  <rect width="800" height="500" rx="20" ry="20" fill="#fcfcfc" stroke="#000000" stroke-width="3"/>
+
+  <!-- Centered Title -->
+  <text x="400" y="42" class="star-title" text-anchor="middle">View History</text>
+
+  <!-- Y Axis Label (Rotated on the left) -->
+  <text x="-247.5" y="32" class="axis-label" text-anchor="middle" transform="rotate(-90)">GitHub Views</text>
+
+  <!-- X Axis Label (Centered at bottom) -->
+  <text x="420" y="480" class="axis-label" text-anchor="middle">Date</text>
+
+  <!-- Y Grid & Labels -->
+  <g><line x1="84" y1="425" x2="90" y2="425" stroke="#000000" stroke-width="2"/><line x1="90" y1="425" x2="750" y2="425" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="430" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">0</text><line x1="84" y1="354" x2="90" y2="354" stroke="#000000" stroke-width="2"/><line x1="90" y1="354" x2="750" y2="354" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="359" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">36</text><line x1="84" y1="283" x2="90" y2="283" stroke="#000000" stroke-width="2"/><line x1="90" y1="283" x2="750" y2="283" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="288" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">72</text><line x1="84" y1="212" x2="90" y2="212" stroke="#000000" stroke-width="2"/><line x1="90" y1="212" x2="750" y2="212" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="217" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">108</text><line x1="84" y1="141" x2="90" y2="141" stroke="#000000" stroke-width="2"/><line x1="90" y1="141" x2="750" y2="141" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="146" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">144</text><line x1="84" y1="70" x2="90" y2="70" stroke="#000000" stroke-width="2"/><line x1="90" y1="70" x2="750" y2="70" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="3 3"/><text x="76" y="75" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="15" font-weight="600" text-anchor="end">180</text></g>
+
+  <!-- X Ticks & Labels -->
+  <g><line x1="90" y1="425" x2="90" y2="431" stroke="#000000" stroke-width="2"/><text x="90" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">7/23</text><line x1="191.53846153846155" y1="425" x2="191.53846153846155" y2="431" stroke="#000000" stroke-width="2"/><text x="191.53846153846155" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">7/25</text><line x1="293.0769230769231" y1="425" x2="293.0769230769231" y2="431" stroke="#000000" stroke-width="2"/><text x="293.0769230769231" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">7/27</text><line x1="394.61538461538464" y1="425" x2="394.61538461538464" y2="431" stroke="#000000" stroke-width="2"/><text x="394.61538461538464" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">7/29</text><line x1="496.1538461538462" y1="425" x2="496.1538461538462" y2="431" stroke="#000000" stroke-width="2"/><text x="496.1538461538462" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">7/31</text><line x1="597.6923076923077" y1="425" x2="597.6923076923077" y2="431" stroke="#000000" stroke-width="2"/><text x="597.6923076923077" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">8/2</text><line x1="699.2307692307693" y1="425" x2="699.2307692307693" y2="431" stroke="#000000" stroke-width="2"/><text x="699.2307692307693" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">8/4</text><line x1="750" y1="425" x2="750" y2="431" stroke="#000000" stroke-width="2"/><text x="750" y="451" fill="#000000" font-family="'Comic Sans MS', 'Comic Neue', Chalkboard, sans-serif" font-size="14" font-weight="600" text-anchor="middle">8/5</text></g>
+
+  <!-- Main Chart Box Axes (Black Lines) -->
+  <polyline points="90,70 90,425 750,425" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Total Views Line (Star-History Blue #3b82f6) -->
+  <path d="M 90.0 336.3 C 115.4 336.3, 115.4 302.7, 140.8 302.7 C 166.2 302.7, 166.2 271.2, 191.5 271.2 C 216.9 271.2, 216.9 237.6, 242.3 237.6 C 267.7 237.6, 267.7 208.1, 293.1 208.1 C 318.5 208.1, 318.5 259.3, 343.8 259.3 C 369.2 259.3, 369.2 243.6, 394.6 243.6 C 420.0 243.6, 420.0 217.9, 445.4 217.9 C 470.8 217.9, 470.8 188.3, 496.2 188.3 C 521.5 188.3, 521.5 198.2, 546.9 198.2 C 572.3 198.2, 572.3 168.6, 597.7 168.6 C 623.1 168.6, 623.1 144.9, 648.5 144.9 C 673.8 144.9, 673.8 223.8, 699.2 223.8 C 724.6 223.8, 724.6 237.6, 750.0 237.6" fill="none" stroke="#3b82f6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Unique Visitors Line (Star-History Yellow/Gold #ea0808ff) -->
+  <path d="M 90.0 389.5 C 115.4 389.5, 115.4 377.7, 140.8 377.7 C 166.2 377.7, 166.2 365.8, 191.5 365.8 C 216.9 365.8, 216.9 350.1, 242.3 350.1 C 267.7 350.1, 267.7 342.2, 293.1 342.2 C 318.5 342.2, 318.5 363.9, 343.8 363.9 C 369.2 363.9, 369.2 356.0, 394.6 356.0 C 420.0 356.0, 420.0 346.1, 445.4 346.1 C 470.8 346.1, 470.8 330.3, 496.2 330.3 C 521.5 330.3, 521.5 340.2, 546.9 340.2 C 572.3 340.2, 572.3 322.4, 597.7 322.4 C 623.1 322.4, 623.1 310.6, 648.5 310.6 C 673.8 310.6, 673.8 348.1, 699.2 348.1 C 724.6 348.1, 724.6 354.0, 750.0 354.0" fill="none" stroke="#ea0808ff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Top-Left Legend Box (Star History Signature Style) -->
+  <g transform="translate(105, 85)">
+    <!-- Legend Container Box -->
+    <rect width="358.5" height="72" rx="8" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Item 1: Total Views -->
+    <rect x="12" y="14" width="14" height="14" rx="2" fill="#3b82f6" stroke="#000000" stroke-width="1.5"/>
+    <text x="34" y="26" class="legend-text">VuxDucGiang/VuxDucGiang (Views)</text>
+
+    <!-- Item 2: Unique Visitors -->
+    <rect x="12" y="42" width="14" height="14" rx="2" fill="#eab308" stroke="#000000" stroke-width="1.5"/>
+    <text x="34" y="54" class="legend-text">VuxDucGiang/VuxDucGiang (Uniques)</text>
+  </g>
+
+  <!-- Bottom Right Star-History Style Watermark -->
+  <g transform="translate(620, 476)">
+    <!-- Icon -->
+    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="none" stroke="#10b981" stroke-width="2.5" transform="scale(0.7) translate(-4, -6)"/>
+    <text x="18" y="10" class="watermark-text">view-history</text>
+  </g>
+</svg>

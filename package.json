@@ -1,0 +1,21 @@
+{
+  "name": "view-history",
+  "version": "1.0.0",
+  "description": "Automatically track GitHub repository view traffic beyond the 14-day limit and generate beautiful SVG/Web charts.",
+  "main": "app.js",
+  "scripts": {
+    "fetch-views": "node scripts/fetch-views.js",
+    "generate-svg": "node scripts/generate-svg.js",
+    "build": "node scripts/generate-svg.js"
+  },
+  "keywords": [
+    "github",
+    "traffic",
+    "views",
+    "chart",
+    "svg",
+    "analytics"
+  ],
+  "author": "VuxDucGiang",
+  "license": "MIT"
+}
