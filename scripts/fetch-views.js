@@ -28,6 +28,12 @@ async function fetchTrafficViews() {
 
     if (!response.ok) {
       const errText = await response.text();
+      if (response.status === 403 && errText.includes("Resource not accessible by integration")) {
+        throw new Error(
+          `GitHub API Error (403): GitHub không cho phép sử dụng GITHUB_TOKEN mặc định để lấy Traffic API.\n` +
+          `=> BẠN CẦN TẠO PERSONAL ACCESS TOKEN (PAT) VÀ THÊM VÀO REPOSITORY SECRETS VỚI TÊN 'GH_PAT'.`
+        );
+      }
       throw new Error(`GitHub API Error (${response.status}): ${errText}`);
     }
 
