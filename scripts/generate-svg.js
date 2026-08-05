@@ -146,7 +146,7 @@ function generateSVG() {
     <text x="34" y="26" class="legend-text">${labelViews}</text>
 
     <!-- Item 2: Unique Visitors -->
-    <rect x="12" y="42" width="14" height="14" rx="2" fill="#eab308" stroke="#000000" stroke-width="1.5"/>
+    <rect x="12" y="42" width="14" height="14" rx="2" fill="#ea0808ff" stroke="#000000" stroke-width="1.5"/>
     <text x="34" y="54" class="legend-text">${labelUniques}</text>
   </g>
 
