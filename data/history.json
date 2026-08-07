@@ -1,9 +1,9 @@
 {
   "repository": "VuxDucGiang/VuxDucGiang",
-  "lastUpdated": "2026-08-06T02:51:02.219Z",
+  "lastUpdated": "2026-08-07T02:49:37.211Z",
   "summary": {
-    "totalViews": 99,
-    "totalUniques": 38
+    "totalViews": 17,
+    "totalUniques": 3
   },
   "views": [
     {
@@ -78,8 +78,8 @@
     },
     {
       "timestamp": "2026-08-05T00:00:00Z",
-      "count": 95,
-      "uniques": 36
+      "count": 13,
+      "uniques": 1
     }
   ]
 }
